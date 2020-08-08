@@ -3,7 +3,7 @@ def turn(board)
   input=gets.strip
   index=input_to_index(input)
     if index.between?(0,8) == true || !position_taken?(board, index) == true
-      move(board, index, token)
+      move(board, index, value)
     else
       puts display_board(board)
       puts "Invalid move. Please enter 1-9:"
@@ -42,7 +42,7 @@ def position_taken?(board, index)
   end
 end
 
-def move(board, index, token = "X")
-  board[index] = token
+def move(board, index, value = "X")
+  board[index] = value
   #move(board, 0, "X")
   end
