@@ -6,7 +6,7 @@ def turn(board)
       #move(board, index, value = "X")
     #else
       #puts display_board(board)
-      puts "Invalid move. Please enter 1-9:"
+      puts "Please enter 1-9:"
   end
 end
 
