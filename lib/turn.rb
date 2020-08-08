@@ -1,10 +1,10 @@
 def turn(board)
   puts "Please enter 1-9:"
-  gets.strip
-  input_to_index(input)
-    if !index.between?(0,8) || position_taken?(board, index)
-    puts display_board(board)
-    puts "Invalid move. Please enter 1-9:"
+  #gets.strip
+  #input_to_index(input)
+    #if !index.between?(0,8) || position_taken?(board, index)
+  #  puts display_board(board)
+  #  puts "Invalid move. Please enter 1-9:"
   end
 end
 
