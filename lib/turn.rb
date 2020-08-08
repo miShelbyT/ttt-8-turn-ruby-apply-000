@@ -6,6 +6,7 @@ def turn(board)
       move(board, index, value = "X")
     else
       puts turn(board)
+      puts display_board(board)
   end
 end
 
